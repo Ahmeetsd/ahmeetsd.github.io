@@ -96,20 +96,20 @@
 <div class="container">
     <h1>Anket</h1>
     <form action="/submit" method="POST">
-        <!-- Ad Soyad -->
+       
         <label for="name">Adınız Soyadınız:</label>
         <input type="text" id="name" name="name" required>
 
-        <!-- Email -->
+        
         <label for="email">E-posta Adresiniz:</label>
         <input type="email" id="email" name="email" required>
 
-        <!-- Cinsiyet -->
+        
         <label>Cinsiyet:</label>
         <label><input type="radio" name="gender" value="Erkek" required> Erkek</label>
         <label><input type="radio" name="gender" value="Kadın" required> Kadın</label>
 
-        <!-- Yaş Grubu -->
+        
         <label>Yaş Grubu:</label>
         <label><input type="radio" name="age" value="0-18" required> 0-18</label>
         <label><input type="radio" name="age" value="18-24" required> 18-24</label>
@@ -118,7 +118,7 @@
         <label><input type="radio" name="age" value="45-64" required> 45-64</label>
         <label><input type="radio" name="age" value="65+" required> 65+</label>
 
-        <!-- İlgi Alanları -->
+        
         <label>İlgi Alanlarınız:</label>
         <label><input type="checkbox" name="interest" value="Teknoloji"> Teknoloji</label>
         <label><input type="checkbox" name="interest" value="Spor"> Spor</label>
@@ -128,11 +128,11 @@
         <label><input type="checkbox" name="interest" value="Müzik"> Müzik</label>
         <label><input type="checkbox" name="interest" value="Tiyatro"> Tiyatro</label>
 
-        <!-- Görüş ve Öneriler -->
+        
         <label for="feedback">Görüş ve Önerileriniz:</label>
         <textarea id="feedback" name="feedback" rows="4"></textarea>
 
-        <!-- Gönder Butonu -->
+        
         <button type="submit">Gönder</button>
     </form>
 </div>
